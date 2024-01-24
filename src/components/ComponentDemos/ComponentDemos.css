@@ -1,0 +1,20 @@
+.ComponentDemos {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+  }
+  
+  .Sandbox__link {
+    display: flex;
+    color: white;
+    align-items: center;
+    gap: 0.5rem;
+    white-space: nowrap;
+  }
+  
+  .Sandbox__icon {
+    width: 1.5rem;
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(295deg)
+      brightness(104%) contrast(102%);
+  }
+  

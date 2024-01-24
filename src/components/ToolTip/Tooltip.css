@@ -1,0 +1,44 @@
+.ToolTipComponent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    gap: 2rem;
+  }
+  
+  .ToolTip__h1 {
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+  
+  .ToolTip__wrapper {
+    position: relative;
+    width: fit-content;
+    border-radius: 1rem;
+    padding: 0.25rem 1rem;
+    white-space: nowrap;
+    background: rgb(75, 75, 75);
+  }
+  
+  .ToolTip__wrapper:hover > .ToolTip {
+    visibility: visible;
+  }
+  
+  .ToolTip {
+    position: absolute;
+    visibility: hidden;
+    width: fit-content;
+    transform: translateY(1rem);
+    border-radius: 0.5rem;
+    padding: 0.25rem 1rem;
+    white-space: nowrap;
+    background: rgb(75, 75, 75);
+    font-size: 0.75rem;
+  }
+  
+  .ToolTip__Gist {
+    max-width: 100%;
+    width: 50rem;
+    margin-top: 3rem;
+  }
+  

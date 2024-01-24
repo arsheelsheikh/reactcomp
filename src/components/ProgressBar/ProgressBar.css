@@ -1,0 +1,50 @@
+.ProgressBar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    gap: 2rem;
+  }
+  
+  .ProgressBar__h1 {
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+  
+  .ProgressBar__wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+  }
+  
+  .ProgressBar__background {
+    background: rgb(75, 75, 75);
+    width: 20rem;
+    height: 2rem;
+    border-radius: 1rem;
+    overflow: hidden;
+  }
+  
+  .ProgressBar__indicator {
+    background: rgb(4, 170, 109);
+    border-radius: 1rem;
+    height: 100%;
+    transition: width 0.25s;
+  }
+  
+  .ProgressBar__incrementor,
+  .ProgressBar__reset {
+    background: rgb(75, 75, 75);
+    width: fit-content;
+    border-radius: 1rem;
+    padding: 0.25rem 1rem;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .ProgressBar__gist {
+    max-width: 100%;
+    width: 50rem;
+  }
+  

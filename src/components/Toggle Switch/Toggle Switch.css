@@ -1,0 +1,40 @@
+.ToggleSwitch__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    gap: 2rem;
+  }
+  
+  .ToggleSwitch__h1 {
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+  
+  .ToggleSwitch__background {
+    background: rgb(75, 75, 75);
+    padding: 0.4rem;
+    width: fit-content;
+    cursor: pointer;
+    border-radius: 2rem;
+  }
+  
+  .ToggleSwitch__handle {
+    height: 2rem;
+    width: 2rem;
+    margin-right: 2rem;
+    background: white;
+    transition: all 0.5s;
+    border-radius: 1rem;
+  }
+  
+  .ToggleSwitch__handle.clicked {
+    margin-left: 2rem;
+    margin-right: 0rem;
+  }
+  
+  .ToggleSwitch__gist {
+    max-width: 100%;
+    width: 50rem;
+  }
+  

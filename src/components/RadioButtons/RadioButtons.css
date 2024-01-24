@@ -1,0 +1,33 @@
+.RadioButtonsComponent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    gap: 2rem;
+  }
+  
+  .RadioButtons__h1 {
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+  
+  .RadioButtons-wrapper {
+    display: flex;
+    gap: 0.5rem;
+  }
+  
+  .RadioButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    width: 2rem;
+    height: 2rem;
+    cursor: pointer;
+  }
+  
+  .RadioButtons__gist {
+    max-width: 100%;
+    width: 50rem;
+  }
+  

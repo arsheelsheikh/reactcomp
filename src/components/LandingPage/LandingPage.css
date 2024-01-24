@@ -1,0 +1,38 @@
+.LandingPage {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .ScrollDown {
+    animation: shakeY;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    position: relative;
+    top: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    opacity: 70%;
+  }
+  
+  .Header {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .Header-react {
+    display: flex;
+    gap: 0.5rem;
+  }
+  
+  .React-Logo {
+    width: 2.5rem;
+  }
+  
+  .DownArrow {
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(295deg);
+  }
+  

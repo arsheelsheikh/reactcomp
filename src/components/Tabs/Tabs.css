@@ -1,0 +1,40 @@
+.Tabs__component {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    gap: 2rem;
+  }
+  
+  .Tabs__h1 {
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+  
+  .Tabs {
+    max-width: 100%;
+    width: 50rem;
+  }
+  
+  .Tabs__wrapper {
+    display: flex;
+  }
+  
+  .Tab {
+    background-color: rgb(150, 150, 150);
+    padding: 0.25rem 1rem;
+    cursor: pointer;
+    border-radius: 0.5rem 0.5rem 0 0;
+  }
+  
+  .Tabs__content {
+    background-color: rgb(75, 75, 75);
+    padding: 1rem;
+    border-radius: 0 0.5rem 0.5rem 0.5rem;
+  }
+  
+  .Tabs__gist {
+    max-width: 100%;
+    width: 50rem;
+  }
+  

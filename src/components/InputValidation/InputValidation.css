@@ -1,0 +1,48 @@
+.InputValidation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    gap: 2rem;
+  }
+  
+  .InputValidation__h1 {
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+  
+  .InputValidation__input {
+    background: rgb(75, 75, 75);
+    color: white;
+    padding: 0.25rem 1rem;
+    border-radius: 1rem;
+  }
+  
+  .InputValidation__submit {
+    background: rgb(75, 75, 75);
+    color: white;
+    padding: 0.25rem 1rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    margin-left: 1rem;
+  }
+  
+  .InputValidation__result {
+    padding: 0.25rem 1rem;
+    border-radius: 1rem;
+  }
+  
+  .InputValidation__gist {
+    max-width: 100%;
+    width: 50rem;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .InputValidation__wrapper {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 2rem;
+    }
+  }
+  

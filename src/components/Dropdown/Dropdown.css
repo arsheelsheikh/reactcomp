@@ -1,0 +1,54 @@
+.Dropdown {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    gap: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    gap: 2rem;
+  }
+  
+  .Dropdown__h1 {
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+  
+  .Dropdown__wrapper {
+    position: relative;
+    padding: 0.25rem 1rem;
+    background: rgb(75, 75, 75);
+  }
+  
+  .Dropdown__wrapper:hover > .Dropdown__options {
+    display: block;
+  }
+  
+  .Dropdown__options {
+    position: absolute;
+    display: none;
+    list-style: none;
+    top: 2rem;
+    right: 0.5rem;
+    z-index: 1;
+  }
+  
+  .Dropdown__option {
+    padding: 0.25rem 1rem;
+    width: fit-content;
+    white-space: nowrap;
+    width: 100%;
+    background: rgb(150, 150, 150);
+    cursor: pointer;
+  }
+  
+  .Dropdown__option:hover {
+    background: rgb(75, 75, 75);
+  }
+  
+  .Dropdown__gist {
+    max-width: 100%;
+    width: 50rem;
+  }
